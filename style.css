@@ -52,3 +52,67 @@ img{
     margin-top:3rem;
     font-size: 3rem;
 }
+/* Tablet */
+@media (max-width: 768px) {
+    .choices {
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+
+    .choice {
+        width: 120px;
+        height: 120px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .msg-container {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    h1{
+        font-size:1.5rem;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .choice {
+        width: 100px;
+        height: 100px;
+    }
+
+    img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .score-board {
+        gap: 2rem;
+        font-size: 0.9rem;
+    }
+
+    #user-score,
+    #computer-score {
+        font-size: 1.8rem;
+    }
+
+    .msg-container {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    #msg{
+        padding:0 10px;
+    }
+}
